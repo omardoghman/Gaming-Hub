@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Gaming Hub</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>Welcome to Gaming Hub</h1>
+        <p>Your ultimate destination for all things gaming!</p>
+        <button onclick="scrollToSection('games')">Explore Games</button>
+    </section>
+
+    <section id="games" class="games-section">
+        <h2>Popular Games</h2>
+        <div class="games-gallery">
+            <div class="game">
+                <img src="ELDEN RING.jpg" alt="Game 1">
+                <h3>ELDEN RING</h3>
+                <p>Elden Ring is an action role-playing game developed by FromSoftware, set in a vast open world known as the "Lands Between." Players explore this intricate world, where they must confront challenging enemies, uncover hidden secrets, and engage in strategic combat using a variety of weapons, magic, and abilities. The story centers around the shattered Elden Ring, with players assuming the role of the "Tarnished," a character seeking to restore the ring and become the Elden Lord.</p>
+            </div>
+            <div class="game">
+                <img src="Sekiro.jpg" alt="Game 2">
+                <h3>Sekiro</h3>
+                <p>Sekiro: Shadows Die Twice is an action-adventure game developed by FromSoftware, set in a reimagined 16th-century Japan. Players control a shinobi named Wolf, who embarks on a quest to rescue his kidnapped lord and take revenge on his enemies. The game is known for its challenging combat mechanics, particularly its posture-based system, where precise timing for parries and attacks is crucial. The death mechanic is also unique, offering players the chance to explore consequences and gain new opportunities after dying​.
+                </p>
+            </div>
+            <div class="game">
+                <img src="Black Myth Wukong.jpg" alt="Game 3">
+                <h3>Black Myth Wukong</h3>
+                <p>Black Myth: Wukong is an action RPG developed by Game Science, drawing inspiration from Chinese mythology, particularly the classic Journey to the West. Players control the "Destined One," a character who embarks on a journey through a world filled with mythical creatures, magical abilities, and intense combat. The game features fluid combat mechanics, allowing players to wield a magical staff, cast spells, and transform into various forms using Sun Wukong's shapeshifting abilities. Set in a vast world, Black Myth: Wukong combines exploration with challenging battles against legendary bosses, deeply rooted in Chinese lore​.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Gaming Hub, we're a passionate team dedicated to delivering the latest gaming news, expert reviews, and helpful guides. Whether you're a casual player or a hardcore enthusiast, we offer content that caters to all. Our goal is to create a community where gamers can stay informed, share insights, and connect. Join us as we explore the ever-evolving world of gaming together!</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gaming Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
